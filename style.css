@@ -1,0 +1,31 @@
+body {
+    background-color: rgba(2, 223, 120, 0.884);
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    padding: 10%;
+}
+td{
+    color: brown;
+    background-color: rgb(36, 36, 228);
+    text-align: center;
+    border-radius: 12px;
+}
+img {
+    padding: 10%;
+    width: 80%;
+    height: 90%;
+    border: 2% solid rgb(219, 70, 70);
+    text-align: center;
+    background-color: rgb(86, 154, 214);
+    border-radius: 12px;
+    opacity: 0;
+    cursor: pointer; 
+    transition: opacity 2s ease, transform 1s ease;
+    transform: rotateY(180deg);
+}
+
